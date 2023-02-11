@@ -1,0 +1,7 @@
+CREATE VIEW ordersView AS
+    select 
+        orderID, quantity, Cost
+    from
+        orders
+    where
+        quantity > 2
